@@ -23,7 +23,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
     .then(res => res.json())
     .then(data => {
       if (data.ok) {
-        window.location.href = "/thankyou.html";
+        window.location.href = "thankyou.html";
       } else {
         console.error("Telegram Error:", data.description);
       }
